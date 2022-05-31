@@ -1,3 +1,73 @@
 /* .wiki_idioms{
     background-image: linear-gradient(transparent,transparent),url(portal/wikipedia.org/assets/img/sprite-e99844f6.svg);
 } */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*HEADER*/
+.logo_wiki{
+    display: grid;
+    place-content: center;
+    grid-template-rows: 55% 50%;
+}
+.logo_wiki img{
+    width: 15rem;
+    
+}
+.logo_wiki h3{
+    font-size: 19px;
+    text-align: center;
+}
+
+/*WORLDMAP*/
+
+.m_map{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px; 
+}
+.m_map img{
+    width:15rem;
+}
+.globo{
+    grid-row: 3/8;
+    grid-column: 4/ 6;
+}
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c0{
+    text-align: center;
+}
+.c1{
+    grid-column: 3 / 4;
+}
+.c2{
+    grid-column: 6 / 7;
+}
+.c3{
+    grid-row: 2 / 3;
+    grid-column: 4;
+}
+.c4{
+
+}
+.c5{
+
+}
+.c6{
+
+}
+.c7{
+
+}
+.c8{
+
+}
+.c9{
+
+}
+.c0{
+    grid-column: 4;
+    grid-row: 4;
+}
