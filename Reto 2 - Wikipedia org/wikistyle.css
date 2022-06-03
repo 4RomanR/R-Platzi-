@@ -92,9 +92,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
-
-    
+    align-content: center;    
 }
 .f_lab_search{
     width: 500px;
@@ -103,18 +101,62 @@
     border-width: 1px;
     
 }
-
-.f_s_box_img img{
-    width:40px;
-    height: 40spx;
+.f_s_box_img{
+    width: 40px;
     background-color: #36c;
     border-color: #36c;
-    
-    
+}
+.f_s_box_img img{
+    width:30px;
+    margin: 5px 0 0 5px;
 }
 .wiki_idioms{
-    padding: 10px;
     text-align: center;
+    color: #36c;    
+    height: auto;
+    margin: 2rem 25% 2rem 25%;
+}
+.wiki_idioms button{
     color: #36c;
-    
+    border-color: rgb(197, 197, 197);   
+    border-width: 1px;
+    padding: 10px;
+}
+hr{
+    margin: 3rem 2rem;
+}
+/* cONTENT - ICONS */
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.con_flex{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem; 
+    width: 40%;   
+
+}
+.con_gr_apps_1{
+    display: flex;
+    padding: 1rem; 
+}
+.con_gr_apps_2{
+    display: flex;
+    padding: 1rem; 
+}
+.con_gr_apps a{
+    text-decoration: none;
+}
+.con_gr_apps_1 img, .con_gr_apps_2 img{
+    width: 30px;
+}
+.a_icons{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    grid-template-rows: 25% 25% 25% 25%;
+    padding: 2rem;
+}
+.a_icons div{
+    padding: 0 3rem;
 }
