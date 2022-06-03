@@ -10,7 +10,7 @@
 .logo_wiki{
     display: grid;
     place-content: center;
-    grid-template-rows: 55% 50%;
+    grid-template-rows: 110px 40%;
 }
 .logo_wiki img{
     width: 15rem;
@@ -20,6 +20,7 @@
     font-size: 19px;
     text-align: center;
 }
+
 
 /*WORLDMAP*/
 
@@ -41,12 +42,10 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-.c1:hover, .c2:hover, .c3:hover, .c4:hover, .c5:hover, .c6:hover, .c7:hover, .c8:hover, .c9:hover, .c0:hover{
-    color: rgb(205, 0, 0);
 
-}
 .m_map a{
     text-decoration: none;
+    color: rgb(80, 80, 255);
 }
 .c1{
     grid-row: 2/3;
@@ -87,4 +86,14 @@
 .c0{
     grid-row: 9;
     grid-column: 5/7;
+}
+
+.f_search{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 30rem;
+}
+.f_lab_search{
+    width: 100%;
+    height: 40px;
 }
