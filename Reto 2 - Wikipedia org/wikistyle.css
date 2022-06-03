@@ -45,7 +45,7 @@
 
 .m_map a{
     text-decoration: none;
-    color: rgb(80, 80, 255);
+    color: #36c;
 }
 .c1{
     grid-row: 2/3;
@@ -89,11 +89,32 @@
 }
 
 .f_search{
-    display: grid;
-    place-content: center;
-    grid-template-columns: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+    
 }
 .f_lab_search{
-    width: 100%;
-    height: 40px;
+    width: 500px;
+    height: 39px;
+    border-color: #36c;
+    border-width: 1px;
+    
+}
+
+.f_s_box_img img{
+    width:40px;
+    height: 40spx;
+    background-color: #36c;
+    border-color: #36c;
+    
+    
+}
+.wiki_idioms{
+    padding: 10px;
+    text-align: center;
+    color: #36c;
+    
 }
