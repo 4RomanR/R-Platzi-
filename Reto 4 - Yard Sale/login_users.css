@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --very-light-pink:#c7c7c7;
+    --text-input-field:#f7f7f7;
+    --hospital-green:#acd9b2;
+
+}
+.login{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.form_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_container img{
+    width: 10rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 80px;
+}
+.input_mail_add, .input_password{
+    background-color: var(--text-input-field);
+    border: 0;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+.button_login {
+    cursor: pointer;
+    background-color: var(--hospital-green);
+    border: 0;
+    border-radius: 10px;
+    padding: 0.5rem ;
+    margin: 0.5rem 0;
+    color: var(--white);
+    
+}
+.button_signup{
+    margin-top: 100px;
+
+    cursor: pointer;
+    background-color: var(--white);
+    border: 1px solid;
+    border-color: var(--hospital-green) 1px;
+    border-radius: 10px;
+    padding: 0.5rem ;
+    
+    color: var(--hospital-green);
+}
+form a{
+    text-decoration: none;
+    color: var(--hospital-green);
+    text-align: center;
+    font-size: small;
+}

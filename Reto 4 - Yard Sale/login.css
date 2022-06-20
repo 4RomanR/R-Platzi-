@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --very-light-pink:#c7c7c7;
+    --text-input-field:#f7f7f7;
+    --hospital-green:#acd9b2;
+
+}
+.login{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.form_container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto 20%;
+}
+.form_container h3, p, input{
+    margin: 1rem 0;
+}
+.form_container img, h3, p, div, img{
+    display: flex;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+}
+.logo{
+    width: 10rem;
+}
+.form_container div{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+}
+.mail{
+    width: 6rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0;
+}
+.button_login{
+    background-color: var(--hospital-green);
+    border: 0;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    color: var(--white);
+}
+form p, a{
+    font-size:small;
+}
+form a{
+    text-decoration: none;
+    color: var(--hospital-green);
+}
+@media  (max-width:800px){
+    .login{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+
+    }
+    .form_container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+}
